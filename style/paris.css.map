@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,KAAK;EACJ,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,IAAI;EACX,WAAK;IACJ,KAAK,EAAC,IAAI;IACV,KAAK,EAAE,IAAI;IACX,SAAS,EAAE,IAAI;IACf,MAAM,EAAC,IAAI",
+"sources": ["paris.scss"],
 "names": [],
 "file": "paris.css"
 }

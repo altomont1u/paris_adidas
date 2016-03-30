@@ -1,3 +1,10 @@
-
+.head {
+  display: inline-block;
+  width: 100%; }
+  .head > img {
+    float: left;
+    width: 43px;
+    max-width: 43px;
+    height: auto; }
 
 /*# sourceMappingURL=paris.css.map */
