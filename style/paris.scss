@@ -1,1 +1,11 @@
+.head{
+	display: inline-block;
+	width: 100%;
+	&>img{
+		float:left;
+		width: 43px;
+		max-width: 43px;
+		height:auto;
+	}
 
+}
