@@ -8,21 +8,16 @@
 	</head>
 	<body>
 		<div data-role="header" data-theme="b" class="head">
-        	<img src="../img/adidas.jpg" alt="Adidas">
-            <h1>ADIDAS PARIS</h1>	
+        	<img src="../img/adidas.png" alt="Adidas">
+            <div class="slogan">ADIDAS PARIS</div>	
             <!-- <img src="../img/account.png" alt="Account"> -->
         </div>
-		<strong><center>Du 10 juin au 10 juillet 2016</center><strong>
+		<strong class="datesEuro"><center>Du 10 juin au 10 juillet 2016</center></strong>
 		
-		<form class="ui-grid-a">
-			<div class="ui-block-a">
-				<input type="date" data-clear-btn="true" placeholder="jj/mm/aaaa" value="" required/>
-			</div>
-			<div class="ui-block-b">
-				<center><button class="ui-btn ui-btn-a ui-icon-calendar ui-btn-icon-notext">Rechercher</button></center>
-			</div>
+		<form class="dates">
+			<input type="date" data-clear-btn="true" min="2016-06-10" max="2016-07-10" placeholder="jj/mm/aaaa" value="" required/>
 		</form>	
-		<table>
+		<table class="calendrier">
 			<tr>
 				<th>Date</th>
 				<th>Match</th>
