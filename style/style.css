@@ -74,3 +74,36 @@ h1{
 	font-size: 4em;
 	margin: 0;
 }
+
+.actions{
+	border: solid black 1px;
+	font-size: 2em;
+}
+
+.direct {
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+}
+
+.cote{
+	float: right;
+	clear: both;
+}
+
+.choix{
+	padding-bottom: 1.2em;
+}
+
+.resultat{
+	border: solid black 1px;
+	padding: 1em;
+}
+
+h3 {
+	font-size: 3em;
+}
+
+.team {
+	font-size: 2em;
+	padding-bottom: 2em;
+}
