@@ -1,0 +1,28 @@
+.equipe{
+	font-size: 4em;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+}
+
+.score{
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
+.informations{
+	text-align: center;
+	font-size: 2em;
+}
+
+.temps{
+	font-size: 0.8em;
+}
+
+.ui-btn{
+	font-size: 2em;
+}
+
+.parie{
+	text-align: center;
+}
