@@ -12,17 +12,16 @@
             <div><span class="slogan">ADIDAS PARIS</span></div>
             <div><a href="connection.html"><img src="../img/users.png" alt="Account" /></a></div>
         </div>
-        <h2>Modifier informations</h2>
-        <form class="formInfo" action="compte.html">
-			<input type="text" data-clear-btn="true" placeholder="Nom" value="" required/>
-			<input type="text" data-clear-btn="true" placeholder="Prénom" value="" required/>
-			<input type="email" data-clear-btn="true" placeholder="Email : email@mail.com" value="" required/>
-			<input type="password" data-clear-btn="true" placeholder="Nouveau mot de passe" value="" required/>
-			<input type="password" data-clear-btn="true" placeholder="Confirmaton mot de passe" value="" required/>
+		<h2>Informations personnelles</h2>
+
+		<form class="formInfo" action="compte.html">
+			<input type="number" maxlength="5" data-clear-btn="true" placeholder="Code banque" value="" required/>
+			<input type="number" maxlength="5" data-clear-btn="true" placeholder="Code guichet" value="" required/>
+			<input type="text" maxlength="11" data-clear-btn="true" placeholder="Numéro de compte" value="" required/>
+			<input type="number" maxlength="2" data-clear-btn="true" placeholder="Clé RIB" value="" required/>
 			<button class="ui-btn ui-btn-b">Confirmer</button>
 		</form>	
-
-        <div data-role="footer" data-position="fixed" class="nav-glyphish-example" data-theme="b">
+		<div data-role="footer" data-position="fixed" class="nav-glyphish-example" data-theme="b">
 		    <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
 		    <ul>
 		        <li><a href="index.html" id="home" data-icon="custom" class="ui-icon-home">Accueil</a></li>
