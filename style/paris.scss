@@ -1,19 +1,18 @@
 .head{
 	background-color: black;
-	display: inline-block;
+	display: flex;
+  justify-content: space-between;
 	width: 100%;
 	&>img{
-		float:left;
-		width: 43px;
-		max-width: 43px;
-		height:auto;
+	    width: auto;
+	    max-width: 200px;
+	    height: 150px;
 	}
 }
 
 .slogan{
   font-size: 3em;
   text-align: center;
-  vertical-align: middle;
  }
  
 h2 {
