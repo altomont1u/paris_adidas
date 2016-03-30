@@ -1,17 +1,27 @@
 <html>
 	<head>
-		<meta charset="UTF-8"> </head>
+		<meta charset="UTF-8"></head>
 		<link rel="stylesheet" href="../lib/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
-		<script src="../lib/jquery-1.12.0.js"></script>
-		<script src="../lib/jquery.mobile-1.4.5.min.js"></script>
+	    <script src="../lib/jquery-1.12.0.js"></script>
+	    <script src="../lib/jquery.mobile-1.4.5.min.js"></script>
+	    <link rel="stylesheet" href="../style/paris.css" />
 	</head>
 	<body>
-		<!-- <div class="ui-grid-b ui-responsive">
-			<strong class="ui-block-a">10 juin - 10 juillet 2016</strong>
-			<input class="ui-block-b" type="date" />
-			<img class="ui-block-c" src="../img/calendar.png" alt="Calendrier" height="42" width="42">
-		</div> -->
+		<div data-role="header" data-theme="b" class="head">
+        	<img src="../img/adidas.jpg" alt="Adidas">
+            <h1>ADIDAS PARIS</h1>	
+            <!-- <img src="../img/account.png" alt="Account"> -->
+        </div>
+		<strong><center>Du 10 juin au 10 juillet 2016</center><strong>
 		
+		<form class="ui-grid-a">
+			<div class="ui-block-a">
+				<input type="date" data-clear-btn="true" placeholder="jj/mm/aaaa" value=""/>
+			</div>
+			<div class="ui-block-b">
+				<center><button class="ui-btn ui-btn-a ui-icon-calendar ui-btn-icon-notext">Rechercher</button></center>
+			</div>
+		</form>	
 		<table>
 			<tr>
 				<th>Date</th>
@@ -100,7 +110,7 @@
 		        <li><a href="#" id="classement" data-icon="custom" class="ui-icon-bars">Classement</a></li>
 		        <li><a href="#" id="paris" data-icon="custom" class="ui-icon-shop">Paris</a></li>
 		        <li><a href="calendrier.html" id="calendrier" data-icon="custom" class="ui-icon-calendar">Calendrier</a></li>
-		        <li><a href="#" id="compte" data-icon="custom" class="ui-icon-user">Compte</a></li>
+		        <li><a href="compte.html" id="compte" data-icon="custom" class="ui-icon-user">Compte</a></li>
 		    </ul>
 		    </div>
 		</div>
