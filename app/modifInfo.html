@@ -12,19 +12,17 @@
             <h1>ADIDAS PARIS</h1>	
             <!-- <img src="../img/account.png" alt="Account"> -->
         </div>
-		<h2>Informations personnelles</h2>
-		<div>
-			<div><center><strong><i>Nom Prénom</i></strong></center></div>
-			<div><center><strong>email@mail.com</strong></center></div>
-		</div>
-		<div>
-			<a href="modifInfo.html" data-role="button">Modifier informations</a>
-			<a href="#" data-role="button">Paris</a>
-			<a href="#" data-role="button">Coordonnées Bancaire</a>
-			<a href="#" class="ui-btn ui-btn-b" data-role="button">Déconnexion</a>
-		</div>
+        <h2>Modifier informations</h2>
+        <form action="compte.html">
+			<input type="text" data-clear-btn="true" placeholder="Nom" value="" required/>
+			<input type="text" data-clear-btn="true" placeholder="Prénom" value="" required/>
+			<input type="email" data-clear-btn="true" placeholder="Email : email@mail.com" value="" required/>
+			<input type="password" data-clear-btn="true" placeholder="Nouveau mot de passe" value="" required/>
+			<input type="password" data-clear-btn="true" placeholder="Confirmaton mot de passe" value="" required/>
+			<button class="ui-btn ui-btn-b">Confirmer</button>
+		</form>	
 
-		<div data-role="footer" data-position="fixed" class="nav-glyphish-example" data-theme="b">
+        <div data-role="footer" data-position="fixed" class="nav-glyphish-example" data-theme="b">
 		    <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
 		    <ul>
 		        <li><a href="index.html" id="home" data-icon="custom" class="ui-icon-home">Accueil</a></li>
