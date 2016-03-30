@@ -134,5 +134,13 @@ h1{
 
 .formInfo button{
   font-size: 3em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.formInfo a{
+  font-size: 3em;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 /*# sourceMappingURL=paris.css.map */
