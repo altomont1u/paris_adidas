@@ -50,10 +50,6 @@ h2 {
   margin: 0;
 }
 
-.parie{
-  text-align: center;
-}
-
 .matchJour{
   padding: 1em;
   border: solid black 1px;
@@ -116,13 +112,10 @@ h1{
   margin-left: 0.5em;
 }
 
-.cote{
-  float: right;
-  clear: both;
-}
-
 .choix{
-  padding-bottom: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .resultat{
@@ -136,7 +129,6 @@ h3 {
 
 .team {
   font-size: 2em;
-  padding-bottom: 2em;
 }
 
 .calendrier{
@@ -193,5 +185,14 @@ h3 {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.heure{
+  font-size: 3.2em;
+  font-weight: bold;
+}
+
+.centre{
+  text-align: center;
 }
 /*# sourceMappingURL=paris.css.map */
