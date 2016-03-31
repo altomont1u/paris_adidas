@@ -78,6 +78,11 @@ img {
   height: 2em;
 }
 
+.imgDetail{
+  height: 150px;
+  width: auto;
+}
+
 .equipeSuivant{
   font-size: 2em;
   font-weight: bold;
@@ -135,8 +140,6 @@ h3 {
 }
 
 .calendrier{
-  width: 100%;
-  height: 1000px;
   font-size: 3em;
 }
 
@@ -175,5 +178,20 @@ h3 {
   font-size: 3em;
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+.composition{
+    font-size: 3em;
+    width: 100%;
+}
+.composition th, .composition td{
+  margin:0;
+  padding:0;
+}
+
+.DetailEquipe{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 /*# sourceMappingURL=paris.css.map */
