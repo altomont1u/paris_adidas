@@ -152,8 +152,9 @@ h3 {
   font-size : 2em;
 }
 
-.compte > a{
+.compte a{
   margin-bottom: 1em;
+  width: 80%;
 }
 
 .formInfo input{
@@ -164,12 +165,14 @@ h3 {
   font-size: 3em;
   margin-bottom: 1em;
   margin-top: 1em;
+  width: 50%;
 }
 
 .formInfo a{
   font-size: 3em;
   margin-bottom: 1em;
   margin-top: 1em;
+  width:40%;
 }
 
 .composition{
