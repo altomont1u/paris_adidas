@@ -1,318 +1,101 @@
 <html>
-    <head>
-        <meta charset="UTF-8"></head>
-        <link rel="stylesheet" href="../lib/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+<head>
+
+<link rel="stylesheet" href="../lib/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
         <script src="../lib/jquery-1.12.0.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.min.js"></script>
         <link rel="stylesheet" href="../style/paris.css" />
-        <script type="text/javascript">
-	        function afficherMasquer(id)
-			{
-			  if(document.getElementById(id).style.display == "none"){
-			    document.getElementById(id).style.display = "block";
-				}
-			  else{
-			    document.getElementById(id).style.display = "none";
-				}
-			}
-		</script>
-    </head>
-
-    <body>
-        <div data-role="header" data-theme="b" class="head">
-        	<div><img src="../img/adidas.png" alt="Adidas" /></div>
+<style type="text/css">
+    #collap{
+        font-size: 25px;
+    }
+    .matable {
+        font-size: 40px;
+    }
+</style>
+<style>
+tr {
+    border-bottom: 1px solid #d6d6d6;
+}
+</style>
+</head>
+<body>
+<div data-role="header" data-theme="b" class="head">
+            <div><img src="../img/adidas.png" alt="Adidas" /></div>
             <div><span class="slogan">ADIDAS PARIS</span></div>
             <div><a href="connection.html"><img src="../img/users.png" alt="Account" /></a></div>
         </div>
+<div id="collap" data-role="collapsibleset" data-iconpos="right" id="set">
+    <div data-role="collapsible" data-collapsed="false">
+    <h4>Classement A</h4>
+    <table data-role="table" class="matable" id="set1" data-mode="columntoggle:none" class="ui-responsive ui-shadow">
+      <thead>
+        <tr><th >Equipe</th><th >J</th><th >V</th><th >N</th><th >D</th><th >Pts</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>Albanie</th><td>2</td><td>1</td><td>1</td><td>0</td><td>4</td></tr>
+        <tr><th>France</th><td>2</td><td>1</td><td>0</td><td>1</td><td>3</td></tr>
+        <tr><th>Roumanie</th><td>2</td><td>1</td><td>1</td><td>0</td><td>4</td></tr>
+        <tr><th>Suisse</th><td>2</td><td>1</td><td>0</td><td>1</td><td>3</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div data-role="collapsible">
+    <h4>Classement B</h4>
+    <table data-role="table" class="matable" id="set2" data-mode="columntoggle:none" class="ui-responsive ui-shadow">
+      <thead>
+        <tr><th >Equipe</th><th >J</th><th >V</th><th >N</th><th >D</th><th >Pts</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>Albanie</th><td>2</td><td>1</td><td>1</td><td>0</td><td>4</td></tr>
+        <tr><th>France</th><td>2</td><td>1</td><td>0</td><td>1</td><td>3</td></tr>
+        <tr><th>Roumanie</th><td>2</td><td>1</td><td>1</td><td>0</td><td>4</td></tr>
+        <tr><th>Suisse</th><td>2</td><td>1</td><td>0</td><td>1</td><td>3</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div data-role="collapsible">
+    <h4>Classement C</h4>
+    <table data-role="table" class="matable" id="set3" data-mode="columntoggle:none" class="ui-responsive ui-shadow">
+      <thead>
+        <tr><th >Equipe</th><th >J</th><th >V</th><th >N</th><th >D</th><th >Pts</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>Albanie</th><td>2</td><td>1</td><td>1</td><td>0</td><td>4</td></tr>
+        <tr><th>France</th><td>2</td><td>1</td><td>0</td><td>1</td><td>3</td></tr>
+        <tr><th>Roumanie</th><td>2</td><td>1</td><td>1</td><td>0</td><td>4</td></tr>
+        <tr><th>Suisse</th><td>2</td><td>1</td><td>0</td><td>1</td><td>3</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div data-role="collapsible">
+    <h4>Classement D</h4>
+    <table data-role="table"class="matable" id="set4" data-mode="columntoggle:none" class="ui-responsive ui-shadow">
+      <thead>
+        <tr><th >Equipe</th><th >J</th><th >V</th><th >N</th><th >D</th><th >Pts</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>Albanie</th><td>2</td><td>1</td><td>1</td><td>0</td><td>4</td></tr>
+        <tr><th>France</th><td>2</td><td>1</td><td>0</td><td>1</td><td>3</td></tr>
+        <tr><th>Roumanie</th><td>2</td><td>1</td><td>1</td><td>0</td><td>4</td></tr>
+        <tr><th>Suisse</th><td>2</td><td>1</td><td>0</td><td>1</td><td>3</td></tr>
+      </tbody>
+    </table>
+    </div>
+</div>
+<div data-role="footer" data-position="fixed" class="nav-glyphish-example" data-theme="b">
+    <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+    <ul>
+        <li><a href="#" id="chat" data-icon="custom">Chat</a></li>
+        <li><a href="#" id="email" data-icon="custom">Email</a></li>
+        <li><a href="#" id="skull" data-icon="custom">Danger</a></li>
+        <li><a href="#" id="beer" data-icon="custom">Beer</a></li>
+        <li><a href="#" id="coffee" data-icon="custom">Coffee</a></li>
+    </ul>
+    </div>
+</div>
 
-        <div class="classement">
-			<div class="groupe" onclick="afficherMasquer(1)">Groupe A</div>
-			<div id="1" class="lienAfficher">
-				<table class="class">
-					<tr>
-						<th>Equipe</th>
-						<th>J</th>
-						<th>V</th>
-						<th>N</th>
-						<th>D</th>
-						<th>Pts</th>
-					</tr>
-					<tr>
-						<td><center>France</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Albanie</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Roumanie</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Suisse</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-				</table>
-			</div>
 
-			<div class="groupe" onclick="afficherMasquer(2)">Groupe B</div>
-			<div id="2" class="lienAfficher">
-				<table class="class">
-					<tr>
-						<th>Equipe</th>
-						<th>J</th>
-						<th>V</th>
-						<th>N</th>
-						<th>D</th>
-						<th>Pts</th>
-					</tr>
-					<tr>
-						<td><center>Galles</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Slovaquie</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Angleterre</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Russie</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-				</table>
-			</div>
+</body>
 
-			<div class="groupe" onclick="afficherMasquer(3)">Groupe C</div>
-			<div id="3" class="lienAfficher">
-				<table class="class">
-					<tr>
-						<th>Equipe</th>
-						<th>J</th>
-						<th>V</th>
-						<th>N</th>
-						<th>D</th>
-						<th>Pts</th>
-					</tr>
-					<tr>
-						<td><center>Turquie</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Croatie</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>IrlandeN</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Pologne</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-				</table>
-			</div>
-
-			<div class="groupe" onclick="afficherMasquer(4)">Groupe D</div>
-			<div id="4" class="lienAfficher">
-				<table class="class">
-					<tr>
-						<th>Equipe</th>
-						<th>J</th>
-						<th>V</th>
-						<th>N</th>
-						<th>D</th>
-						<th>Pts</th>
-					</tr>
-					<tr>
-						<td><center>Espagne</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>RepTchèque</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Allemagne</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Ukraine</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-				</table>
-			</div>
-
-			<div class="groupe" onclick="afficherMasquer(5)">Groupe E</div>
-			<div id="5" class="lienAfficher">
-				<table class="class">
-					<tr>
-						<th>Equipe</th>
-						<th>J</th>
-						<th>V</th>
-						<th>N</th>
-						<th>D</th>
-						<th>Pts</th>
-					</tr>
-					<tr>
-						<td><center>Irlande</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Suède</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Belgique</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Italie</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-				</table>
-			</div>
-			 
-			<div class="groupe" onclick="afficherMasquer(6)">Groupe F</div>
-			<div id="6" class="lienAfficher">
-				<table class="class">
-					<tr>
-						<th>Equipe</th>
-						<th>J</th>
-						<th>V</th>
-						<th>N</th>
-						<th>D</th>
-						<th>Pts</th>
-					</tr>
-					<tr>
-						<td><center>Autriche</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Hongrie</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Portugal</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-					<tr>
-						<td><center>Islande</td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-						<td><center>0</center></td>
-					</tr>
-				</table>
-			</div>
-		</div>
-
-		<div data-role="footer" data-position="fixed" class="nav-glyphish-example" data-theme="b">
-            <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
-            <ul>
-                <li><a href="index.html" id="home" data-icon="custom" class="ui-icon-home">Accueil</a></li>
-                <li><a href="classement.html" id="classement" data-icon="custom" class="ui-icon-bars">Classement</a></li>
-                <li><a href="#" id="paris" data-icon="custom" class="ui-icon-shop">Paris</a></li>
-                <li><a href="calendrier.html" id="calendrier" data-icon="custom" class="ui-icon-calendar">Calendrier</a></li>
-                <li><a href="compte.html" id="compte" data-icon="custom" class="ui-icon-user">Compte</a></li>
-            </ul>
-            </div>
-        </div>
-    </body>
 </html>
