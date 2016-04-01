@@ -52,10 +52,6 @@ h2 {
   margin: 0;
 }
 
-.parie{
-  text-align: center;
-}
-
 .matchJour{
   padding: 1em;
   border: solid black 1px;
@@ -78,6 +74,11 @@ h2 {
 img {
   margin-top: 0.5em;
   height: 2em;
+}
+
+.imgDetail{
+  height: 150px;
+  width: auto;
 }
 
 .equipeSuivant{
@@ -113,13 +114,10 @@ h1{
   margin-left: 0.5em;
 }
 
-.cote{
-  float: right;
-  clear: both;
-}
-
 .choix{
-  padding-bottom: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .resultat{
@@ -133,12 +131,9 @@ h3 {
 
 .team {
   font-size: 2em;
-  padding-bottom: 2em;
 }
 
 .calendrier{
-  width: 100%;
-  height: 1000px;
   font-size: 3em;
 }
 
@@ -159,8 +154,9 @@ h3 {
   font-size : 2em;
 }
 
-.compte > a{
+.compte a{
   margin-bottom: 1em;
+  width: 80%;
 }
 
 .formInfo input{
@@ -171,11 +167,62 @@ h3 {
   font-size: 3em;
   margin-bottom: 1em;
   margin-top: 1em;
+  width: 50%;
 }
 
 .formInfo a{
   font-size: 3em;
   margin-bottom: 1em;
   margin-top: 1em;
+  width:40%;
+}
+
+.composition{
+    font-size: 3em;
+    width: 100%;
+}
+.composition th, .composition td{
+  margin:0;
+  padding:0;
+}
+
+.DetailEquipe{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.heure{
+  font-size: 3.2em;
+  font-weight: bold;
+}
+
+.centre{
+  text-align: center;
+}
+
+.info{
+  font-size : 2.5em;
+  margin-bottom: 1em;
+}
+
+.classement{
+  font-size: 3em;
+  text-align: center;
+}
+
+.groupe{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.class{
+    font-size: 1em;
+    width: 100%;
+}
+.lienAfficher{
+  display: none;
 }
 /*# sourceMappingURL=paris.css.map */
